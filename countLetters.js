@@ -11,7 +11,7 @@ const assertEqual = function(actual, expected) {
 const countLetters = function(sentence) {
 
   // inside func, create a variable which is an empty object
-  let letterPositions = {};
+  const letterPositions = {};
 
   // iterate over string input
   for(let i = 0; i < sentence.length; i++) {  
