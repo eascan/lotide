@@ -1,25 +1,3 @@
-const eqArrays = function (actual, expected) {
-  if (actual.length !== expected.length) {
-    return false;
-  } else {
-      for(let i = 0; i < actual.length; i++) {
-        if (actual[i] !== expected[i]) {
-          return false;
-      }
-    }
-  }
-  return true;
-}
-
-
-const assertArraysEqual = function(actual, expected) {
-  if (eqArrays(actual, expected)) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-}
-
 
 // create a function to check if array has > 2 elements
 
@@ -58,18 +36,4 @@ const middle = function(array) {
   }
 }
 
-middle([1]) // => []
-middle([1, 2]) // => []
-
-console.log(middle([1, 2, 3])); // => [2]
-middle([1, 2, 3, 4, 5]) // => [3]
-middle([1, 2, 3, 4]) // => [2, 3]
-console.log(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
-
-/*
-
-assertArraysEqual(middle([1]), []);
-assertArraysEqual(middle([1, 2]), []);
-assertArraysEqual(middle([1, 2, 3]), [2]);
-assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4])
-*/
+module.exports = middle;

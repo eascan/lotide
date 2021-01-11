@@ -40,3 +40,4 @@ const results2 = map(cups, cup => cup[0]);
 assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);
 assertArraysEqual(results2, ['c', 't', 'p']);
 assertArraysEqual(results2, ['c', 't']);
+
