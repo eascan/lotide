@@ -1,0 +1,26 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eascan/lotide.git"
+  },
+  "author": "Edward Ascan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eascan/lotide/issues"
+  },
+  "homepage": "https://github.com/eascan/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
