@@ -24,5 +24,12 @@ module.exports = {
   assertObjectsEqual: assertObjectsEqual,
   countLetters: countLetters,
   countOnly: countOnly,
-  
+  eqArrays: eqArrays,
+  eqObjects: eqObjects,
+  findKey: findKey,
+  findKeyByValue: findKeyByValue,
+  letterPositions: letterPositions,
+  map: map,
+  takeUntil: takeUntil,
+  without: without
 };
